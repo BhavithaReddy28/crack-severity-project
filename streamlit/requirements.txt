@@ -1,4 +1,6 @@
 streamlit
-tensorflow
+tensorflow-cpu
 numpy
 pillow
+joblib
+scikit-learn
