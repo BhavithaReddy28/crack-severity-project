@@ -8,7 +8,7 @@ import joblib
 # Load models
 # ===============================
 EFF_MODEL = "eff_model.keras"
-CNN_MODEL = "cnn_model.keras"
+CNN_MODEL = "structural_crack_cnn_model.h5"
 META_MODEL = "meta_stack_logreg.pkl"
 
 eff = tf.keras.models.load_model(EFF_MODEL, compile=False)
